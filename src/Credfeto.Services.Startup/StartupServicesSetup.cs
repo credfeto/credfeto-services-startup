@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Credfeto.Services.Startup;
 
-public static class ResourceSetup
+public static class StartupServicesSetup
 {
     public static IServiceCollection AddRunOnStartupServices(this IServiceCollection services)
     {
