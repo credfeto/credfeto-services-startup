@@ -12,6 +12,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - FF-1429 - Updated Credfeto.Enumeration.Source.Generation to 1.0.5.17
 - FF-1429 - Updated Meziantou.Analyzer to 2.0.14
 - FF-1429 - Updated NSubstitute.Analyzers.CSharp to 1.0.16
+- FF-1429 - Updated SmartAnalyzers.CSharpExtensions.Annotations to 4.2.8
 ### Removed
 ### Deployment Changes
 
