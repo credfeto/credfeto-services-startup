@@ -15,6 +15,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - FF-1429 - Updated SmartAnalyzers.CSharpExtensions.Annotations to 4.2.8
 - FF-1429 - Updated FunFair.Test.Common to 6.0.18.2581
 - FF-1429 - Updated SonarAnalyzer.CSharp to 8.52.0.60960
+- FF-1429 - Updated Microsoft.VisualStudio.Threading.Analyzers to 17.5.22
 ### Removed
 ### Deployment Changes
 
