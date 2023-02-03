@@ -44,8 +44,8 @@
   <PropertyGroup>
     <Description>Interfaces for startup service</Description>
     <DevelopmentDependency>true</DevelopmentDependency>
-    <NoPackageAnalysis>true</NoPackageAnalysis>
     <NeutralLanguage>en</NeutralLanguage>
+    <NoPackageAnalysis>true</NoPackageAnalysis>
     <PackageTags>Startup Service</PackageTags>
     <RepositoryUrl>https://github.com/credfeto/credfeto-services-startup</RepositoryUrl>
   </PropertyGroup>

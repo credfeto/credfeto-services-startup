@@ -44,11 +44,14 @@
   <PropertyGroup>
     <Description>Interfaces for startup service</Description>
     <DevelopmentDependency>true</DevelopmentDependency>
-    <NoPackageAnalysis>true</NoPackageAnalysis>
     <NeutralLanguage>en</NeutralLanguage>
+    <NoPackageAnalysis>true</NoPackageAnalysis>
     <PackageTags>Startup Service</PackageTags>
     <RepositoryUrl>https://github.com/credfeto/credfeto-services-startup</RepositoryUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Credfeto.Services.Startup.Interfaces\Credfeto.Services.Startup.Interfaces.csproj" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0" />
@@ -69,8 +72,5 @@
     <PackageReference Include="SonarAnalyzer.CSharp" Version="8.52.0.60960" PrivateAssets="All" ExcludeAssets="runtime" />
     <PackageReference Include="SourceLink.Create.CommandLine" Version="2.8.3" PrivateAssets="All" ExcludeAssets="runtime" />
     <PackageReference Include="ToStringWithoutOverrideAnalyzer" Version="0.6.0" PrivateAssets="All" ExcludeAssets="runtime" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Credfeto.Services.Startup.Interfaces\Credfeto.Services.Startup.Interfaces.csproj" />
   </ItemGroup>
 </Project>
