@@ -9,6 +9,14 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
+### Removed
+### Deployment Changes
+
+<!--
+Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
+-->
+## [1.0.0] - 2023-02-04
+### Changed
 - FF-1429 - Updated Credfeto.Enumeration.Source.Generation to 1.0.5.17
 - FF-1429 - Updated Meziantou.Analyzer to 2.0.14
 - FF-1429 - Updated NSubstitute.Analyzers.CSharp to 1.0.16
@@ -16,12 +24,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - FF-1429 - Updated SonarAnalyzer.CSharp to 8.52.0.60960
 - FF-1429 - Updated Microsoft.VisualStudio.Threading.Analyzers to 17.5.22
 - FF-1429 - Updated FunFair.Test.Common to 6.0.19.2617
-### Removed
-### Deployment Changes
 
-<!--
-Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
--->
 ## [0.0.1] - 2023-01-20
 ### Added
 - Startup service and tests
