@@ -5,5 +5,5 @@ namespace Credfeto.Services.Startup.Interfaces;
 
 public interface IRunOnStartup
 {
-    Task StartAsync(CancellationToken cancellationToken);
+    ValueTask StartAsync(CancellationToken cancellationToken);
 }

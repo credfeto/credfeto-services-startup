@@ -16,10 +16,10 @@ public sealed class LogOnProcessStartup : IRunOnStartup
         this._logger = logger ?? throw new ArgumentNullException(nameof(logger));
     }
 
-    public Task StartAsync(CancellationToken cancellationToken)
+    public ValueTask StartAsync(CancellationToken cancellationToken)
     {
         this._logger.LogStarting();
 
-        return Task.CompletedTask;
+        return ValueTask.CompletedTask;
     }
 }

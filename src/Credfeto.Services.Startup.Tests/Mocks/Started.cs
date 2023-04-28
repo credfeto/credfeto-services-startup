@@ -13,7 +13,7 @@ public sealed class Started : IRunOnStartup
         this._started = started;
     }
 
-    public Task StartAsync(CancellationToken cancellationToken)
+    public ValueTask StartAsync(CancellationToken cancellationToken)
     {
         return this._started.StartAsync();
     }
