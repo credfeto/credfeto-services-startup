@@ -11,6 +11,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Changed
 - Dependencies - Updated Meziantou.Analyzer to 2.0.61
 - Dependencies - Updated Microsoft.Extensions to 7.0.1
+- SDK - Updated DotNet SDK to 8.0.100-preview.5.23303.2
 ### Removed
 ### Deployment Changes
 
