@@ -9,16 +9,19 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
-- Dependencies - Updated SonarAnalyzer.CSharp to 9.9.0.77355
-- Dependencies - Updated NSubstitute to 5.1.0
-- Dependencies - Updated Meziantou.Analyzer to 2.0.85
-- SDK - Updated DotNet SDK to 8.0.100-rc.1.23455.8
 ### Removed
 ### Deployment Changes
 
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+## [1.1.10] - 2023-09-13
+### Changed
+- Dependencies - Updated SonarAnalyzer.CSharp to 9.9.0.77355
+- Dependencies - Updated NSubstitute to 5.1.0
+- Dependencies - Updated Meziantou.Analyzer to 2.0.85
+- SDK - Updated DotNet SDK to 8.0.100-rc.1.23455.8
+
 ## [1.1.9] - 2023-08-30
 ### Changed
 - Dependencies - Updated Credfeto.Enumeration.Source.Generation to 1.0.16.111
