@@ -1,3 +1,5 @@
+using System.Diagnostics.CodeAnalysis;
+
 [assembly:
     SuppressMessage(category: "Philips.CodeAnalysis.MaintainabilityAnalyzers",
                     checkId: "PH2140: Avoid ExcludeFromCodeCoverage",
