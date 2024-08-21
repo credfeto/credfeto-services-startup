@@ -9,13 +9,16 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
-- Dependencies - Updated Microsoft.NET.Test.Sdk to 17.11.0
 ### Removed
 ### Deployment Changes
 
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+## [1.1.23] - 2024-08-21
+### Changed
+- Dependencies - Updated Microsoft.NET.Test.Sdk to 17.11.0
+
 ## [1.1.22] - 2024-08-19
 ### Changed
 - SDK - Updated DotNet SDK to 8.0.401
