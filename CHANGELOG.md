@@ -9,6 +9,14 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
+### Removed
+### Deployment Changes
+
+<!--
+Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
+-->
+## [1.1.77] - 2025-03-23
+### Changed
 - Dependencies - Updated Roslynator.Analyzers to 4.13.1
 - Dependencies - Updated SonarAnalyzer.CSharp to 10.7.0.110445
 - Dependencies - Updated Microsoft.VisualStudio.Threading.Analyzers to 17.13.61
@@ -18,12 +26,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - SDK - Updated DotNet SDK to 9.0.202
 - Dependencies - Updated FunFair.CodeAnalysis to 7.0.73.978
 - Dependencies - Updated FunFair.Test.Common to 6.1.264.1201
-### Removed
-### Deployment Changes
 
-<!--
-Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
--->
 ## [1.1.76] - 2025-02-13
 ### Changed
 - Dependencies - Updated FunFair.CodeAnalysis to 7.0.67.921
