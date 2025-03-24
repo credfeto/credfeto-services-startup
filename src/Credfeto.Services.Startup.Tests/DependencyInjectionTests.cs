@@ -3,7 +3,6 @@ using FunFair.Test.Common;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Xunit;
-using Xunit.Abstractions;
 
 namespace Credfeto.Services.Startup.Tests;
 
