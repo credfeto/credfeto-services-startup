@@ -8,7 +8,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NSubstitute;
 using Xunit;
-using Xunit.Abstractions;
 
 namespace Credfeto.Services.Startup.Tests;
 
@@ -38,9 +37,9 @@ public sealed class StartupTests : LoggingTestBase
         {
             await hs.StartAsync(cts.Token);
 
-            await Task.Delay(delay: delay, cancellationToken: CancellationToken.None);
+            await Task.Delay(delay: delay, cancellationToken: this.CancellationToken());
 
-            await hs.StopAsync(CancellationToken.None);
+            await hs.StopAsync(this.CancellationToken());
 
             await started.Received(1)
                          .StartAsync();
