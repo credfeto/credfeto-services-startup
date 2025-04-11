@@ -7,7 +7,8 @@ public static class StartupServicesSetup
 {
     public static IServiceCollection AddRunOnStartupServices(this IServiceCollection services)
     {
-        return services.AddRunOnStartupTask<LogOnProcessStartup>()
-                       .AddHostedService<StartupService>();
+        return services
+            .AddRunOnStartupTask<LogOnProcessStartup>()
+            .AddHostedService<StartupService>();
     }
 }

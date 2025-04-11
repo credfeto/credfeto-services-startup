@@ -23,14 +23,19 @@ public sealed class StartupService : BackgroundService
 
     protected override Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        return Task.WhenAll(this._services.Select(service => this.StartServiceAsync(service: service, cancellationToken: stoppingToken)
-                                                                 .AsTask()));
+        return Task.WhenAll(
+            this._services.Select(service =>
+                this.StartServiceAsync(service: service, cancellationToken: stoppingToken).AsTask()
+            )
+        );
     }
 
-    private ValueTask StartServiceAsync(IRunOnStartup service, in CancellationToken cancellationToken)
+    private ValueTask StartServiceAsync(
+        IRunOnStartup service,
+        in CancellationToken cancellationToken
+    )
     {
-        this._logger.LogStarting(service.GetType()
-                                        .Name);
+        this._logger.LogStarting(service.GetType().Name);
 
         return service.StartAsync(cancellationToken);
     }

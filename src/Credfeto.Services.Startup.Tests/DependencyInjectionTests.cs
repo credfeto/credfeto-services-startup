@@ -9,9 +9,7 @@ namespace Credfeto.Services.Startup.Tests;
 public sealed class DependencyInjectionTests : DependencyInjectionTestsBase
 {
     public DependencyInjectionTests(ITestOutputHelper output)
-        : base(output: output, dependencyInjectionRegistration: ConfigureServices)
-    {
-    }
+        : base(output: output, dependencyInjectionRegistration: ConfigureServices) { }
 
     private static IServiceCollection ConfigureServices(IServiceCollection serviceCollection)
     {

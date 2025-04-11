@@ -14,15 +14,14 @@ namespace Credfeto.Services.Startup.Tests;
 public sealed class StartupTests : LoggingTestBase
 {
     public StartupTests(ITestOutputHelper output)
-        : base(output: output, dependencyInjectionRegistration: RegisterServices)
-    {
-    }
+        : base(output: output, dependencyInjectionRegistration: RegisterServices) { }
 
     private static IServiceCollection RegisterServices(IServiceCollection services)
     {
-        return services.AddMockedService<IStarted>()
-                       .AddRunOnStartupServices()
-                       .AddRunOnStartupTask<Started>();
+        return services
+            .AddMockedService<IStarted>()
+            .AddRunOnStartupServices()
+            .AddRunOnStartupTask<Started>();
     }
 
     [Fact]
@@ -41,8 +40,7 @@ public sealed class StartupTests : LoggingTestBase
 
             await hs.StopAsync(this.CancellationToken());
 
-            await started.Received(1)
-                         .StartAsync();
+            await started.Received(1).StartAsync();
         }
     }
 }
