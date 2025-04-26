@@ -18,10 +18,7 @@ public sealed class StartupTests : LoggingTestBase
 
     private static IServiceCollection RegisterServices(IServiceCollection services)
     {
-        return services
-            .AddMockedService<IStarted>()
-            .AddRunOnStartupServices()
-            .AddRunOnStartupTask<Started>();
+        return services.AddMockedService<IStarted>().AddRunOnStartupServices().AddRunOnStartupTask<Started>();
     }
 
     [Fact]
