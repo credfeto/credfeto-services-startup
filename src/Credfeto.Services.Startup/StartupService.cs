@@ -30,10 +30,7 @@ public sealed class StartupService : BackgroundService
         );
     }
 
-    private ValueTask StartServiceAsync(
-        IRunOnStartup service,
-        in CancellationToken cancellationToken
-    )
+    private ValueTask StartServiceAsync(IRunOnStartup service, in CancellationToken cancellationToken)
     {
         this._logger.LogStarting(service.GetType().Name);
 
