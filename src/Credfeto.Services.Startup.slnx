@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Config/">
+    <File Path="../CHANGELOG.md" />
+    <File Path="../README.md" />
+    <File Path="CodeAnalysis.ruleset" />
+    <File Path="global.json" />
+  </Folder>
+  <Project Path="Credfeto.Services.Startup.Interfaces/Credfeto.Services.Startup.Interfaces.csproj" />
+  <Project Path="Credfeto.Services.Startup.Tests/Credfeto.Services.Startup.Tests.csproj" />
+  <Project Path="Credfeto.Services.Startup/Credfeto.Services.Startup.csproj" />
+</Solution>
