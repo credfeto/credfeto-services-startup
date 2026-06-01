@@ -15,6 +15,6 @@ public sealed class Started : IRunOnStartup
 
     public ValueTask StartAsync(CancellationToken cancellationToken)
     {
-        return this._started.StartAsync();
+        return this._started.StartAsync(cancellationToken);
     }
 }

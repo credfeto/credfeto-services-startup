@@ -37,7 +37,7 @@ public sealed class StartupTests : LoggingTestBase
 
             await hs.StopAsync(this.CancellationToken());
 
-            await started.Received(1).StartAsync();
+            await started.Received(1).StartAsync(Arg.Any<CancellationToken>());
         }
     }
 }
