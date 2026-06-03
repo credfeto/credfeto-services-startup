@@ -8,6 +8,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ## [Unreleased]
 ### Security
 ### Added
+- Credfeto.Services.Startup.Interfaces.Tests project to collect code coverage for Credfeto.Services.Startup.Interfaces assembly
 ### Fixed
 ### Changed
 ### Deprecated
