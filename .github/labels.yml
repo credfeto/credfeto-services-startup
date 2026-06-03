@@ -46,6 +46,10 @@
    color: "96f7d2"
    description: "Changes in Credfeto.Services.Startup.Interfaces project"
 
+ - name: "credfeto-services-startup-interfaces-tests"
+   color: "0e8a16"
+   description: "Changes in Credfeto.Services.Startup.Interfaces.Tests project"
+
  - name: "credfeto-services-startup-tests"
    color: "0e8a16"
    description: "Changes in Credfeto.Services.Startup.Tests project"
