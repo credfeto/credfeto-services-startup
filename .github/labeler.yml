@@ -11,13 +11,13 @@
 "Config Change":
  - any: [ 'src/**/*.json', '!src/global.json' ]
 "credfeto-services-startup":
- - any: [ 'src/$Credfeto.Services.Startup/**/*' ]
+ - any: [ 'src/Credfeto.Services.Startup/**/*' ]
 "credfeto-services-startup-interfaces":
- - any: [ 'src/$Credfeto.Services.Startup.Interfaces/**/*' ]
+ - any: [ 'src/Credfeto.Services.Startup.Interfaces/**/*' ]
 "credfeto-services-startup-interfaces-tests":
- - any: [ 'src/$Credfeto.Services.Startup.Interfaces.Tests/**/*' ]
+ - any: [ 'src/Credfeto.Services.Startup.Interfaces.Tests/**/*' ]
 "credfeto-services-startup-tests":
- - any: [ 'src/$Credfeto.Services.Startup.Tests/**/*' ]
+ - any: [ 'src/Credfeto.Services.Startup.Tests/**/*' ]
 "dotnet":
  - any: [ 'src/**/*.csproj' ]
 "Editorconfig":
