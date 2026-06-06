@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Credfeto.Services.Startup.Interfaces;
-using Credfeto.Services.Startup.Logging;
+using Credfeto.Services.Startup.LoggingExtensions;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 

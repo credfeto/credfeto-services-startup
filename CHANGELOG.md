@@ -12,6 +12,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Unit tests to achieve 100% branch coverage in Credfeto.Services.Startup
 ### Fixed
 ### Changed
+- Renamed logging extension classes to follow LoggingExtensions naming convention and fixed duplicate EventIds
 ### Deprecated
 ### Removed
 ### Deployment Changes
