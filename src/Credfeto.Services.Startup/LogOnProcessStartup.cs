@@ -2,7 +2,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using Credfeto.Services.Startup.Interfaces;
-using Credfeto.Services.Startup.Logging;
+using Credfeto.Services.Startup.LoggingExtensions;
 using Microsoft.Extensions.Logging;
 
 namespace Credfeto.Services.Startup;
