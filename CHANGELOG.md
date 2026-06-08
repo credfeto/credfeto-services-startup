@@ -11,6 +11,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Credfeto.Services.Startup.Interfaces.Tests project to collect code coverage for Credfeto.Services.Startup.Interfaces assembly
 - Unit tests to achieve 100% branch coverage in Credfeto.Services.Startup
 ### Fixed
+- CI: add missing checkout before local composite actions in on_new_pr.yml; skip lint-code and copilot-review jobs for Dependabot PRs where SOURCE_PUSH_TOKEN is unavailable
 ### Changed
 - Renamed logging extension classes to follow LoggingExtensions naming convention and fixed duplicate EventIds
 ### Deprecated
