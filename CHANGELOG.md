@@ -11,6 +11,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Credfeto.Services.Startup.Interfaces.Tests project to collect code coverage for Credfeto.Services.Startup.Interfaces assembly
 - Unit tests to achieve 100% branch coverage in Credfeto.Services.Startup
 ### Fixed
+- Fix Pull Request workflow auto-approve and auto-merge jobs failing on dependency PRs due to local composite action resolution in pull_request_target context
 ### Changed
 - Renamed logging extension classes to follow LoggingExtensions naming convention and fixed duplicate EventIds
 ### Deprecated
