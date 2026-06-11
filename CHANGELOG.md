@@ -8,18 +8,22 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ## [Unreleased]
 ### Security
 ### Added
-- Credfeto.Services.Startup.Interfaces.Tests project to collect code coverage for Credfeto.Services.Startup.Interfaces assembly
-- Unit tests to achieve 100% branch coverage in Credfeto.Services.Startup
 ### Fixed
 ### Changed
-- Renamed logging extension classes to follow LoggingExtensions naming convention and fixed duplicate EventIds
-- SDK - Updated DotNet SDK to 10.0.301
 ### Deprecated
 ### Removed
 ### Deployment Changes
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+## [1.1.150] - 2026-06-11
+### Added
+- Credfeto.Services.Startup.Interfaces.Tests project to collect code coverage for Credfeto.Services.Startup.Interfaces assembly
+- Unit tests to achieve 100% branch coverage in Credfeto.Services.Startup
+### Changed
+- Renamed logging extension classes to follow LoggingExtensions naming convention and fixed duplicate EventIds
+- SDK - Updated DotNet SDK to 10.0.301
+
 ## [1.1.149] - 2026-06-03
 ### Changed
 - Dependencies - Updated Credfeto.Enumeration to 1.2.144.1906
