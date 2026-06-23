@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Credfeto.Services.Startup.Interfaces;
 using Credfeto.Services.Startup.Tests.Mocks;
 using FunFair.Test.Common;
+using FunFair.Test.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NSubstitute;
