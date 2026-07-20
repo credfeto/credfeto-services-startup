@@ -10,6 +10,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
+- Target .NET 10.0 only; dropped net9.0 multi-targeting
 ### Deprecated
 ### Removed
 ### Deployment Changes
