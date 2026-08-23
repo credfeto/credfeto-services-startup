@@ -13,7 +13,6 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated FunFair.CodeAnalysis to 7.2.13.2323
 - Dependencies - Updated xunit.analyzers to 2.0.0
 - Dependencies - Updated xunit.v3 to 4.0.0
-- Dependencies - Updated FunFair.Test.Source.Generator to 6.3.9.2602
 - Dependencies - Updated Microsoft.Extensions to 10.0.11
 - Dependencies - Updated NSubstitute to 6.2.0
 - Dependencies - Updated Credfeto.Enumeration to 1.2.152.2216
@@ -21,6 +20,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated Meziantou.Analyzer to 3.0.177
 - Dependencies - Updated Roslynator.Analyzers to 5.0.0
 - Dependencies - Updated SonarAnalyzer.CSharp to 10.33.0.1635
+- Dependencies - Updated FunFair.Test.Source.Generator to 6.4.0.2617
 ### Deprecated
 ### Removed
 ### Deployment Changes
