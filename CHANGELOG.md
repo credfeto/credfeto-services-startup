@@ -20,6 +20,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated Microsoft.Extensions to 10.0.11
 - Dependencies - Updated NSubstitute to 6.2.0
 - Dependencies - Updated Credfeto.Enumeration to 1.2.152.2216
+- Dependencies - Updated CSharpIsNullAnalyzer to 0.2.19
 ### Deprecated
 ### Removed
 ### Deployment Changes
