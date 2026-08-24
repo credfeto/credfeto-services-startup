@@ -1,6 +1,9 @@
 ﻿# Changelog
 All notable changes to this project will be documented in this file.
 
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
 <!--
 Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 -->
@@ -22,6 +25,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated SonarAnalyzer.CSharp to 10.33.0.1635
 - Dependencies - Updated FunFair.Test.Source.Generator to 6.4.0.2617
 - Dependencies - Updated FunFair.Test to 6.4.0.2617
+- Dependencies - Switched xunit.v3.mtp-v2 to xunit.v3.aot.mtp-v2 in test projects to match FunFair.Test.Common's AOT xunit v3 packages
 ### Deprecated
 ### Removed
 ### Deployment Changes
