@@ -12,6 +12,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Security
 ### Added
 ### Fixed
+- Test projects - Declared explicit IncludeAssets on PackageReference entries to satisfy tightened FunFair.BuildCheck validation
 ### Changed
 - Dependencies - Updated FunFair.CodeAnalysis to 7.2.13.2323
 - Dependencies - Updated xunit.analyzers to 2.0.0
@@ -32,6 +33,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+
 ## [1.1.157] - 2026-08-20
 ### Changed
 - Target .NET 10.0 only; dropped net9.0 multi-targeting
