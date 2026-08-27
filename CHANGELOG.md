@@ -1,6 +1,9 @@
 ﻿# Changelog
 All notable changes to this project will be documented in this file.
 
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
 <!--
 Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 -->
@@ -9,6 +12,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Security
 ### Added
 ### Fixed
+- Declared explicit IncludeAssets on PackageReference entries across all projects to satisfy tightened FunFair.BuildCheck validation
 ### Changed
 - Dependencies - Updated FunFair.CodeAnalysis to 7.2.13.2323
 - Dependencies - Updated xunit.analyzers to 2.0.0
@@ -21,12 +25,15 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated Roslynator.Analyzers to 5.0.0
 - Dependencies - Updated SonarAnalyzer.CSharp to 10.33.0.1635
 - Dependencies - Updated FunFair.Test.Source.Generator to 6.4.0.2617
+- Dependencies - Updated FunFair.Test to 6.4.0.2617
+- Dependencies - Switched xunit.v3.mtp-v2 to xunit.v3.aot.mtp-v2 in test projects to match FunFair.Test.Common's AOT xunit v3 packages
 ### Deprecated
 ### Removed
 ### Deployment Changes
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+
 ## [1.1.157] - 2026-08-20
 ### Changed
 - Target .NET 10.0 only; dropped net9.0 multi-targeting
