@@ -1,0 +1,7 @@
+<!-- CI passes -p:NoWarn=MSB4241 as a global property, which would otherwise make MSBuild ignore the assignment below; TreatAsLocalProperty lets it append to that value instead -->
+<Project TreatAsLocalProperty="NoWarn">
+    <!-- FunFair.CodeAnalysis 7.2.22.2617 analyses source-generator output (xunit v3 AOT generators, Microsoft.Extensions.Logging LoggerMessage); those trees cannot be fixed or excluded via editorconfig -->
+    <PropertyGroup>
+        <NoWarn>$(NoWarn);FFS0012;FFS0022;FFS0039;FFS0040</NoWarn>
+    </PropertyGroup>
+</Project>
