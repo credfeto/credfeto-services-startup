@@ -18,11 +18,11 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Removed redundant Microsoft.Extensions.DependencyInjection.Abstractions and Microsoft.Extensions.Hosting.Abstractions package references, as the .NET 11 shared framework now supplies them
 - Compiler - Enabled the runtime-async compiler feature, so async code is compiled against the .NET 11 runtime's native async support
 - SDK - Updated DotNet SDK to 11.0.100
-- Dependencies - Updated Meziantou.Analyzer to 3.0.339
 - Dependencies - Updated SonarAnalyzer.CSharp to 10.36.0.15337
 - Dependencies - Updated xunit.analyzers to 2.3.0
 - Dependencies - Updated xunit.v3 to 4.0.3
 - Dependencies - Updated FunFair.CodeAnalysis to 7.2.26.2691
+- Dependencies - Updated Meziantou.Analyzer to 3.0.340
 ### Deprecated
 ### Removed
 ### Deployment Changes
