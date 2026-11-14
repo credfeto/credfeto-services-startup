@@ -18,6 +18,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Removed redundant Microsoft.Extensions.DependencyInjection.Abstractions and Microsoft.Extensions.Hosting.Abstractions package references, as the .NET 11 shared framework now supplies them
 - Compiler - Enabled the runtime-async compiler feature, so async code is compiled against the .NET 11 runtime's native async support
 - SDK - Updated DotNet SDK to 11.0.100
+- Dependencies - Updated FunFair.CodeAnalysis to 7.2.25.2636
 ### Deprecated
 ### Removed
 ### Deployment Changes
