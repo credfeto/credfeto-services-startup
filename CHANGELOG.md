@@ -13,7 +13,6 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
-- Dependencies - Updated Credfeto.Enumeration to 1.2.158.2511
 - SDK - Retargeted the .NET projects from .NET 10 to .NET 11 to build on the .NET 11 runtime
 - Dependencies - Removed redundant Microsoft.Extensions.DependencyInjection.Abstractions and Microsoft.Extensions.Hosting.Abstractions package references, as the .NET 11 shared framework now supplies them
 - Compiler - Enabled the runtime-async compiler feature, so async code is compiled against the .NET 11 runtime's native async support
@@ -24,6 +23,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated FunFair.CodeAnalysis to 7.2.26.2691
 - Dependencies - Updated Meziantou.Analyzer to 3.0.340
 - Dependencies - Updated Philips.CodeAnalysis.MaintainabilityAnalyzers to 2.2.0
+- Dependencies - Updated Credfeto.Enumeration to 1.2.159.2554
 ### Deprecated
 ### Removed
 ### Deployment Changes
