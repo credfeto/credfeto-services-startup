@@ -13,6 +13,16 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
+### Deprecated
+### Removed
+### Deployment Changes
+
+<!--
+Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
+-->
+
+## [1.1.166] - 2026-11-15
+### Changed
 - SDK - Retargeted the .NET projects from .NET 10 to .NET 11 to build on the .NET 11 runtime
 - Dependencies - Removed redundant Microsoft.Extensions.DependencyInjection.Abstractions and Microsoft.Extensions.Hosting.Abstractions package references, as the .NET 11 shared framework now supplies them
 - Compiler - Enabled the runtime-async compiler feature, so async code is compiled against the .NET 11 runtime's native async support
@@ -24,13 +34,6 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated Philips.CodeAnalysis.MaintainabilityAnalyzers to 2.2.0
 - Dependencies - Updated Credfeto.Enumeration to 1.2.159.2554
 - Dependencies - Updated FunFair.CodeAnalysis to 7.2.28.2699
-### Deprecated
-### Removed
-### Deployment Changes
-
-<!--
-Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
--->
 
 ## [1.1.165] - 2026-11-03
 ### Changed
